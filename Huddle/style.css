@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+}
+
+body{
+    font-size: 18px;
+}
+
+body p{
+    line-height: 1.5;
+}
+
+.welcome{
+    background-image: url(./images/bg-hero-desktop.svg);
+    background-color: hsl(193, 100%, 96%);
+    padding: 100px;
+    height: 55vh;
+}
+
+.mockups-img{
+    width:50%;
+    float: right;
+
+}
+
+.intro{
+    width: 30%;
+}
+
+.build{
+    margin-top: 50px;
+}
+
+.welcome h1{
+    margin: 100px 20px 20px 0;
+
+}
+
+    /* line-height: 10pt; */
+
+
+.welcome button, .community button{
+    border-radius: 25px;
+    border: 0;
+    margin: 30px 0 0 0 ;
+    padding: 15px 45px;
+    text-align: center;
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+}
+/*     Grow conversation div */
+.grow-img{
+    width: 30%;
+    float: right;
+    margin-left: 50px;
+    border: 5%;
+    height: auto;
+}
+
+.grow-div, .flow-div, .user-div{
+    margin: 150px 100px 0;
+    padding: 200px 100px 100px;
+    box-shadow: 1px 1px 2px 2px hsl(193, 17%, 84%);
+    height: 40vh;
+    border-radius: 30px;
+}
+
+.grow-div h1, .flow-div h1{
+    margin: 10px 0;
+    /* line-height: 2px; */
+}
+.grow-intro, .flow-intro{
+    width: 35%;
+    line-height: 1.5;
+}
+
+
+/*      Flow conversation div */
+.flow-img{
+    width: 30%;
+    float: left;
+    margin-right: 50px;
+    border: 5%;
+    height: auto;
+    padding-right: 200px;
+}
+
+
+/*      User div */
+.user-img{
+    width: 30%;
+    float: right;
+    margin-right: 50px;
+    border: 5%;
+    height: auto;
+    padding-left: 200px;
+}
+
+.user-div h1 p{
+    padding: 50px;
+}
+
+/*     Footer */
+
+footer div{
+    height: 100%;
+    width: 200px;
+    margin: auto;
+    padding: 20px 0;
+}
+
+/*  Community div */
+
+.community{
+    /* height: 100px; */
+    width: 50vw;
+    position: relative;
+    top: 100px;
+    left: 25vw;
+    background-color: white;
+    text-align: center;
+    padding: 50px;
+    border-radius: 25px;
+    box-shadow: 1px 1px 2px 2px hsl(193, 17%, 84%);
+}
+
+footer{
+    /* height: 50vh; */
+    background-color: hsl(192, 100%, 9%);
+    color: white;
+    display: flex;
+    padding-top: 100px;
+    padding-bottom: 40px ;
+    /* align-items: center; */
+}
+
+footer img{
+    float: left;
+    margin-right: 10px;
+} 
+
+footer p{
+    clear: right;
+}
+
+.footer-logo{
+    color: white;
+    padding-top: 100px;
+}
+
+.site-sections{
+    margin: 10px 0;
+}
+
+.contact p{
+    margin: 30px 0;
+    
+}
+.contact-logo{
+    margin-bottom: 30px;
+}
+/* Style all font awesome icons */
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background:hsl(192, 100%, 9%);;
+    color: white;
+    border-color: white transparent;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: hsl(192, 100%, 9%);
+    color: white;
+  }
+    /* Instagram */
+    .fa-instagram {
+        background: hsl(192, 100%, 9%);
+        color: white;
+      }
+i{
+    margin-top: 20px;
+    font-size: small;
+
+}
+
