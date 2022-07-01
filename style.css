@@ -1,193 +1,466 @@
-*{
-    margin: 0;
-}
-
 body{
-    font-size: 18px;
+    margin: 0;
+    padding: 0;
 }
-
-body p{
-    line-height: 1.5;
+p{
+    font-family: 'Open Sans', Poppins, Arial;
 }
-
-.welcome{
-    background-image: url(./images/bg-hero-desktop.svg);
-    background-color: hsl(193, 100%, 96%);
-    padding: 100px;
-    height: 55vh;
+h2{
+    font-family: 'Poppins', Open Sans, Arial;
 }
-
-.mockups-img{
-    width:50%;
-    float: right;
-
+.section1{
+    background-image: url(bg-hero-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-color: rgb(240, 250, 255);
+    height: 650px;
 }
-
-.intro{
-    width: 30%;
+.logo{
+    width: 190px;
+    height: 30px;
+    margin-left: 90px;
+    margin-top: 35px;
 }
-
-.build{
-    margin-top: 50px;
-}
-
-.welcome h1{
-    margin: 100px 20px 20px 0;
-
-}
-
-    /* line-height: 10pt; */
-
-
-.welcome button, .community button{
-    border-radius: 25px;
-    border: 0;
-    margin: 30px 0 0 0 ;
-    padding: 15px 45px;
-    text-align: center;
-    background-color: hsl(322, 100%, 66%);
-    color: white;
-}
-/*     Grow conversation div */
-.grow-img{
-    width: 30%;
-    float: right;
-    margin-left: 50px;
-    border: 5%;
-    height: auto;
-}
-
-.grow-div, .flow-div, .user-div{
-    margin: 150px 100px 0;
-    padding: 200px 100px 100px;
-    box-shadow: 1px 1px 2px 2px hsl(193, 17%, 84%);
-    height: 40vh;
-    border-radius: 30px;
-}
-
-.grow-div h1, .flow-div h1{
-    margin: 10px 0;
-    /* line-height: 2px; */
-}
-.grow-intro, .flow-intro{
-    width: 35%;
-    line-height: 1.5;
-}
-
-
-/*      Flow conversation div */
-.flow-img{
-    width: 30%;
-    float: left;
-    margin-right: 50px;
-    border: 5%;
-    height: auto;
-    padding-right: 200px;
-}
-
-
-/*      User div */
-.user-img{
-    width: 30%;
-    float: right;
-    margin-right: 50px;
-    border: 5%;
-    height: auto;
-    padding-left: 200px;
-}
-
-.user-div h1 p{
-    padding: 50px;
-}
-
-/*     Footer */
-
-footer div{
-    height: 100%;
-    width: 200px;
-    margin: auto;
-    padding: 20px 0;
-}
-
-/*  Community div */
-
-.community{
-    /* height: 100px; */
-    width: 50vw;
-    position: relative;
-    top: 100px;
-    left: 25vw;
-    background-color: white;
-    text-align: center;
-    padding: 50px;
-    border-radius: 25px;
-    box-shadow: 1px 1px 2px 2px hsl(193, 17%, 84%);
-}
-
-footer{
-    /* height: 50vh; */
-    background-color: hsl(192, 100%, 9%);
-    color: white;
+.logo-button{
     display: flex;
-    padding-top: 100px;
-    padding-bottom: 40px ;
-    /* align-items: center; */
-}
-
-footer img{
-    float: left;
-    margin-right: 10px;
-} 
-
-footer p{
-    clear: right;
-}
-
-.footer-logo{
-    color: white;
-    padding-top: 100px;
-}
-
-.site-sections{
-    margin: 10px 0;
-}
-
-.contact p{
-    margin: 30px 0;
+    flex-direction: row;
     
 }
-.contact-logo{
-    margin-bottom: 30px;
+.button1{
+    margin-right: 30px;
+    margin-left: 860px;
+    margin-top: 35px;
+    margin-bottom: 60px;
+   
 }
-/* Style all font awesome icons */
-  
-  /* Add a hover effect if you want */
-  .fa:hover {
-    opacity: 0.7;
-  }
-  
-  /* Set a specific color for each brand */
-  
-  /* Facebook */
-  .fa-facebook {
-    background:hsl(192, 100%, 9%);;
-    color: white;
-    border-color: white transparent;
-  }
-  
-  /* Twitter */
-  .fa-twitter {
-    background: hsl(192, 100%, 9%);
-    color: white;
-  }
-    /* Instagram */
-    .fa-instagram {
-        background: hsl(192, 100%, 9%);
-        color: white;
-      }
-i{
-    margin-top: 20px;
+
+.try-it-free{
+    height: 40px;
+    width: 170px;
+    border-radius: 40px;
+    background-color: white;
     font-size: small;
+    font-weight: bolder;
+    border-style: none;
+    box-shadow: 0px 0px 2.2px 2.2px #dadada;
+}
+.mock-ups{
+    height: 450px;
+    width: 600px;
+    margin-left: 60px;
+}
+.mockups-build{
+    display: flex;
+    flex-direction: row;
+
+}
+.tag1{
+    display: inline-block;
+    width: 450px;
+    margin-left: 90px;
+    margin-top: 70px;
+    font-size: x-large;
+    line-height: 45px;
+    
+}
+.pg1{
+    width: 530px;
+    margin-left: 90px;
+    margin-right: 50px;
+    font-size: large;
+}
+.button2{
+    margin-left: 90px;
+    height: 40px;
+    width: 300px;
+    margin-top: 30px;
+}
+.get-started{
+    width: 250px;
+    height: 55px;
+    border-radius: 40px;
+    border-style: hidden;
+    background-color: hsl(322, 100%, 66%);
+    font-size: large;
+    color: white;
+}
+
+.section2{
+    border-style: none;
+    border-right: none;
+    border-bottom: none;
+    box-shadow: 0px 0px 5px 5px #f5f1f1;
+    border-radius: 20px;
+    margin: 150px 100px 30px;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+}
+.tag2{
+    display: flex;
+    flex-direction: column;
+    row-gap: 0px;
+    margin-top: 100px;
+    margin-left: 105px;
+    flex-wrap: wrap;
+}
+.grow{
+    display: inline-block;
+    width: 50% ;
+    font-size: large;
+    margin-bottom: 0;
+}
+.grow-img{
+    height: 300px;
+    width: 400px;
+    margin-top: 50px;
+    margin-left: 120px;
+}
+.pg2{
+    width: 490px;
+    margin-top: 1px;
+    font-size: large;
+    color: grey;
+}
+.section3{
+    border-style: none;
+    border-right: none;
+    border-bottom: none;
+    box-shadow: 0px 0px 5px 5px #f5f1f1;
+    border-radius: 20px;
+    margin: 35px 100px 30px;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+}
+.flowing-img{
+    height: 300px;
+    width: 400px;
+    margin-top: 50px;
+    margin-left: 90px;
+}
+.tag3{
+    display: flex;
+    flex-direction: column;
+    row-gap: 0px;
+    margin-top: 100px;
+    margin-left: 120px;
+}
+.flowing{
+    display: inline-block;
+    width: 80% ;
+    font-size: large;
+    margin-bottom: 0;
+}
+.pg3{
+    width: 500px;
+    margin-top: 1px;
+    font-size: large;
+    color: grey;
+}
+.section4{
+    border-style: none;
+    border-right: none;
+    border-bottom: none;
+    box-shadow: 0px 0px 5px 5px #f5f1f1;
+    border-radius: 20px;
+    margin: 35px 100px 300px;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+}
+.headtag4{
+    display: flex;
+    flex-direction: column;
+    row-gap: 0px;
+    margin-top: 100px;
+    margin-left: 105px;
+    flex-wrap: wrap;
+}
+.your{
+    display: inline-block;
+    width: 50% ;
+    font-size: larger;
+}
+.your-img{
+    height: 300px;
+    width: 400px;
+    margin-top: 50px;
+    margin-left: 130px;
+}
+.pg4{
+    width: 480px;
+    margin-top: 1px;
+    font-size: large;
+    color: grey;
+}
+.section5{
+    border-style: none;
+    border-right: none;
+    border-bottom: none;
+    border-radius: 20px;
+    box-shadow: 0px 0px 2px 2px #dadada;
+    background-color: white;
+    position: absolute;
+    height: 240px;
+    width: 700px;
+    margin-top: -150px;
+    margin-left: 330px;
+
+}
+.ready{
+    font-size: larger;
+    text-align: center;
+    justify-content: center;
+    margin-top: 60px;
+}
+#get-started{
+    width: 340px;
+    height: 70px;
+    margin-left: 91px;
+}
+.section6{
+    border-style: hidden;
+    background-color: rgb(6, 27, 31);
+    height: 460px;
+    color: white;
+    padding-top: 150px;
+}
+.logo2{
+    display: block;
+    color: white;
+    height: 34px;
+    width: 205px;
+    filter: grayscale(100%) brightness(1000%);
+    margin-bottom: 30px;
+   
+}
+.footer1{
+    /* display: flex; */
+    margin-left: 130px;
+    margin-top: 50px;
+}
+.sub2{
+    display: flex;
+}
+.sub3{
+    display: flex;
+}
+/* .subfooter2{
+    display: inline-block;
+}
+.icon1{
+    display: flex;
+}
+.icon2{
+    display: flex;
+}
+.icon3{
+    display: flex;
+} */
+.location{
+    height: 19px;
+    width: 12px;
+    margin-top: 20px;
+    margin-right: 23px;
+   
+}
+.phone{
+    height: 16px;
+    width: 16px;
+    margin-top: 20px;
+    margin-right: 23px;
+}
+.email{
+    height: 16px;
+    width: 17px;
+    margin-top: 20px;
+    margin-right: 23px;
 
 }
 
+.lorem{
+    display: flex;
+}
+.pg5{
+    width: 380px;
+    color: rgb(202, 199, 199);
+}
+
+.footer2{
+    display: flex;
+}
+.about{
+    margin-left: 138px;
+    color: rgb(202, 199, 199);
+}
+.career{
+    margin-left: 100px;
+    color: rgb(202, 199, 199);
+}
+.us{
+    margin-left: 6px;
+}
+.social{
+    display: flex;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.fb{
+    height: 40px;
+    width: 40px;
+   
+}
+.twitter{
+    height: 40px;
+    width: 40px; 
+}
+.ig{
+    height: 40px;
+    width: 40px;
+   
+}
+.what{
+    margin-left: 138px;
+    color: rgb(202, 199, 199);
+}
+.blog{
+    margin-left: 100px;
+    color: rgb(202, 199, 199);
+}
+.faq{
+    margin-left: 390px;
+    color: rgb(202, 199, 199);
+}
+.contact{
+    margin-left: 157px;
+    color: rgb(202, 199, 199);
+}
+.copyright{
+    margin-top: 40px;
+    margin-left: 72%;
+    font-size: smaller;
+    color: rgb(202, 199, 199);
+}
+.number{
+    color: rgb(202, 199, 199);
+}
+#mail{
+    color: rgb(202, 199, 199);
+}
+.get-started:hover{
+    text-decoration: none;
+    background-color: rgb(245, 139, 192);
+    cursor: pointer;
+}
+.try-it-free:hover{
+    color: rgb(150, 150, 150);
+    cursor: pointer;
+}
+.about:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.what:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.blog:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.faq:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.contact:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.career:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.fb:hover{
+    color: hotpink;
+    cursor: pointer;
+}
+.ig:hover{
+    color: hotpink;
+    cursor: pointer;
+}
+.twitter:hover{
+    background-color: hotpink;
+    color: hotpink;
+    cursor: pointer;
+}
+@media screen and (max-width:375px) {
+    .section1{
+        background-image: url(bg-hero-desktop.svg);
+        background-repeat: no-repeat;
+        background-size: auto;
+        background-color: rgb(240, 250, 255);
+        height: 700px;
+    }
+    .button1{
+        /* margin-right: 30px; */
+        margin-left: 105px;
+        margin-top: 30px;
+        margin-bottom: 60px;
+    }
+    .logo{
+        width: 90px;
+        height: 20px;
+        margin-left: 20px;
+        margin-top: 30px;
+    }
+    .try-it-free{
+        height: 24px;
+        width: 95px;
+        border-radius: 40px;
+        background-color: white;
+        font-size: x-small;
+        font-weight: bolder;
+        border-style: none;
+        box-shadow: 0px 0px 2.2px 2.2px #dadada;
+    }
+    .tag1{
+        width: 250px;
+        text-align: center;
+        margin-left: 40px;
+        margin-top: 20px;
+        font-size: smaller;
+        line-height: 30px;
+    } 
+    .pg1{
+        width: 237px;
+        text-align: center;
+        margin-left: 40px;
+        font-size: small;
+    }
+    .button2{
+        margin-left: 62px;
+        height: 40px;
+        width: 300px;
+        margin-top: 30px;
+    }
+    .get-started{
+        width: 190px;
+        height: 40px;
+        border-radius: 40px;
+        border-style: hidden;
+        background-color: hsl(322, 100%, 66%);
+        font-size: x-small;
+        color: white;
+    }
+    .mockups-build{
+        display: flex;
+        flex-direction: column;
+    }
+    .mock-ups{
+        margin-top: 50px;
+        height: 220px;
+        width: 260px;
+        margin-left: 35px;
+    }
+}
